@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "730207260231",
+    "project_id": "poslodavac-fd524",
+    "storage_bucket": "poslodavac-fd524.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:730207260231:android:0b4d6fb437898c0490ab62",
+        "android_client_info": {
+          "package_name": "com.novi.poslodavac"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "730207260231-21ol2fifchgvlbllb7tedg5c3rblfv3r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDuqJnSSGh_b9Uo2ERztaJrwjwi7QLC2GU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "730207260231-21ol2fifchgvlbllb7tedg5c3rblfv3r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

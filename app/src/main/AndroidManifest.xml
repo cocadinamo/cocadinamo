@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.novi.Anonimax">
+
+    <application
+        android:name="com.novi.Anonimax.MyApplication"
+        android:allowBackup="true"
+        android:fullBackupContent="@xml/backup_descriptor"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher_x"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.novi.Anonimax.groupSettings.GUsernameActivity" />
+        <activity android:name="com.novi.Anonimax.groupSettings.GnameActivity" />
+        <activity android:name="com.novi.Anonimax.groupSettings.gLinkActivity" />
+        <activity android:name="com.novi.Anonimax.groupSettings.GbioActivity" />
+        <activity android:name="com.novi.Anonimax.settings.UsernameActivity" />
+        <activity android:name="com.novi.Anonimax.notifications.NotificationScreen" />
+        <activity android:name="com.novi.Anonimax.settings.NameActivity" />
+        <activity android:name="com.novi.Anonimax.settings.LocationActivity" />
+        <activity android:name="com.novi.Anonimax.settings.LinkActivity" />
+        <activity android:name="com.novi.Anonimax.settings.BioActivity" />
+        <activity android:name="com.novi.Anonimax.Check" />
+        <activity
+            android:name="com.novi.Anonimax.menu.ChangeEmail"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.novi.Anonimax.menu.ChangePassword"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.novi.Anonimax.menu.Policy"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.novi.Anonimax.post.Post"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.novi.Anonimax.user.MediaView" />
+        <activity
+            android:name="com.novi.Anonimax.user.StoryView"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.novi.Anonimax.user.AddStory"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.novi.Anonimax.menu.Saved"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.novi.Anonimax.groupSettings.EditGroup"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.novi.Anonimax.groups.GroupProfile"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.novi.Anonimax.groups.AddParticipants"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.novi.Anonimax.groups.GroupChat"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.novi.Anonimax.groups.CreateGroup"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.novi.Anonimax.groups.ShareGroupActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.novi.Anonimax.post.PostLikedBy"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.novi.Anonimax.shareChat.ShareChatActivity"
+            android:configChanges="orientation"
+            android:label="Add to chat"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="image/*" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="text/plain" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="video/*" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.novi.Anonimax.shareChat.ShareActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.novi.Anonimax.user.MyFollowing"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.novi.Anonimax.post.PostDetails"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.novi.Anonimax.post.UpdatePost"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.novi.Anonimax.user.FollowersList"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.novi.Anonimax.user.UserProfile"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.novi.Anonimax.search.Search"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.novi.Anonimax.shareChat.Chat"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.novi.Anonimax.menu.Menu"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.novi.Anonimax.search.ProfileSearch"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.novi.Anonimax.settings.EditProfile"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.novi.Anonimax.authPhone.Final"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AuthTheme" />
+        <activity
+            android:name="com.novi.Anonimax.authPhone.VerifyOTP"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AuthTheme" />
+        <activity
+            android:name="com.novi.Anonimax.authPhone.GenerateOTP"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AuthTheme" />
+        <activity
+            android:name="com.novi.Anonimax.authEmail.ForgotPassword"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AuthTheme" />
+        <activity
+            android:name="com.novi.Anonimax.authEmail.Finish"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AuthTheme" />
+        <activity
+            android:name="com.novi.Anonimax.authEmail.SignUp"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AuthTheme" />
+        <activity
+            android:name="com.novi.Anonimax.authEmail.SignIn"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AuthTheme" />
+        <activity
+            android:name="com.novi.Anonimax.welcome.IntroLast"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AuthTheme" />
+        <activity
+            android:name="com.novi.Anonimax.welcome.IntroActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AuthTheme" />
+        <activity
+            android:name="com.novi.Anonimax.welcome.SplashScreen"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AuthTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.novi.Anonimax.MainActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-8957916229862289~8827946397" />
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.novi.Anonimax.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/paths" />
+        </provider>
+
+        <service
+            android:name="com.novi.Anonimax.notifications.FirebaseMessaging"
+            android:enabled="true"
+            android:exported="true"
+            tools:ignore="ExportedService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+    </application>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"
+        tools:ignore="ManifestOrder" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+</manifest>
